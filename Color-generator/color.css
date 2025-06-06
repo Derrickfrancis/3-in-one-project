@@ -1,0 +1,12 @@
+
+h1{
+    font-family: cursive;
+}
+button{
+    font-family: cursive;
+    background-color: brown;
+    color: azure;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+}

@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 12%, 90%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    background-color: hsl(120, 70%, 75%);
+    position: absolute;
+    transform: translatex(50%);
+    text-align: center;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    width: 50%;
+    line-height: 5px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 5em;
+    color: azure;
+}
+button{
+    padding: 1em 2em;
+    border: none;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: backgroun-color 0.5s ease-in-out;
+}
+.decreaseBtn{
+    background-color: hsl(0, 59%, 41%);
+    color: azure;
+     transition: ackground-color  1s ease;
+}
+.decreaseBtn:hover{
+    background-color: hsl(0, 59%, 50%);
+    box-shadow: 1px 2px grey;
+}
+.decreaseBtn:active{
+     background-color: hsl(0, 59%, 50%);
+    box-shadow: 2px 3px 2px hwb(0 30% 90%);
+}
+.increaseBtn{
+    background-color: hsl(270, 76%, 53%);
+    color: azure;
+}
+.increaseBtn:hover{
+    background-color: hsl(272, 76%, 59%);
+    box-shadow: 1px 2px grey;
+}
+.increaseBtn:active{
+    background-color: hsl(272, 76%, 59%);
+    box-shadow: 2px 3px 2px hwb(0 30% 90%);
+}
+.resetBtn{
+    color: #333;
+}
+.resetBtn:hover{
+    box-shadow: 2px 3px 2px grey;
+}
+.resetBtn:active{
+    box-shadow: 2px 3px 2px hwb(0 30% 90%);
+    
+}
