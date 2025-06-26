@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; 
+    font-family: cursive;
+    min-width: 500px;
+    height: 30vh;
+    /* border: 1px outset peachpuff;
+    border-radius: 10px; */
+   
+}
+label{
+    font-size: 1.3em;
+}
+
+.inputText{
+    padding:  0 3px;
+    font-size: 1.1em;
+    font-weight: 00;
+    width: 200px;
+    outline: none;
+    border: 1px;
+    border-bottom: 1px solid gray;
+    margin: 5px 10px ;
+}
+
+.checkBtn{
+    padding:  5px 10px;
+    border-radius: 5px;
+    border: 1px outset gray;
+    background: linear-gradient(320deg, steelblue, gray);
+    color: azure;
+}
+.checkBtn:hover{
+     opacity: 0.8;
+     box-shadow: 2px 1px 2px gray;
+}
+.checkBtn:active{
+     opacity: 0.5;
+     box-shadow: 2px 1px 2px gray;
+}
+
+.partOfSpeech{
+    font-weight: 400;
+    color: grey;
+    
+}

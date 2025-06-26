@@ -5,6 +5,7 @@ body{
     box-sizing: border-box;
     background-color: hsl(0, 12%, 90%);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 div{
     background-color: hsl(120, 70%, 75%);

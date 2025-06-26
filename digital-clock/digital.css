@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* min-width: 600px; */
+     background: radial-gradient(steelblue,gray);
+     background-color: transparent;
+     height: 100vh;
+  
+
+}
+
+#digital{
+    /* width: 100%; */
+    margin: 100px auto;
+    background:linear-gradient(700deg,white, gray);
+    color: hsla(203, 17%, 46%, 0.799);
+    border-radius: 10px;
+    border: none;
+}
