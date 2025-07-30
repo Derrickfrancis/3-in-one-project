@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+
+}
+
+form{
+    min-width: 500px;
+    min-height: 40vh;
+    background:linear-gradient(320deg,rgb(42, 71, 97),gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 5px;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(183, 183, 217);
+}
+
+h2{
+    color: aliceblue;
+    font-size: 2em;
+    
+}
+label{
+    font-size: 1.5em;
+    color: azure;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    padding: 10px;
+    color: rgb(160, 133, 133);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 350px;
+}
+input:hover{
+    box-shadow: 1px 2px gray;
+}
+
+button{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    color: rgb(129, 170, 203);
+    background: radial-gradient(gray,rgb(151, 151, 167));
+    box-shadow: 2px 2px ;
+    color: aliceblue;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+     background: radial-gradient(gray,hsl(240, 8%, 70%));
+}
+.startQuiz{
+    display: none;
+}
+
+.successContainer{
+    
+}

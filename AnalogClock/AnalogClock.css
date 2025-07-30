@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 1s ease;
+}
+.clock{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50px;
+    background: radial-gradient(#111,#0f0f0f);
+    box-shadow: 0 0 15px #fff2;
+    margin: 50px auto;
+}
+
+.centerDot{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rosybrown;
+    border-radius: 50%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.hand{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translate(-50%) rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.hour{
+    width: 7px;
+    height: 75px;
+    background: #222;
+    z-index: 3;
+    border-radius: 50% 50% 0 0;
+}
+.minute{
+    width: 4px;
+    height: 100px;
+    background-color: aliceblue;
+    z-index: 2;
+    border-radius: 50% 50% 0 0;
+}
+.second{
+    width: 2px;
+    height: 120px;
+    background-color: red;
+    z-index: 1;
+    border-radius: 50% 50% 0 0;
+    transition: none;
+    will-change: transform;
+}
+.number{
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    transform: rotate(calc(var(--n) * 30deg))
+     translateY(-130px) 
+     rotate(calc(var(--n) * -30deg));
+}

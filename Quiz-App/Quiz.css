@@ -1,14 +1,58 @@
-/* *{
-    padding: 0;
+ *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(300deg,rgb(83, 183, 91), rgb(14, 221, 221));
-    
+.quizApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.answersContainer{
-    font-weight: 100;
-    font-size:3em ;
-} */
+.answerElements{
+    display: flex;
+    flex-direction:column;
+}
+
+ .quizContainer{
+     display: flex; 
+    flex-direction: column;
+    margin: 100px auto;
+    background:linear-gradient(320deg, blue, gray);
+    border: 2px solid gray;
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px; 
+} 
+h1{
+    font-size: 2rem;
+    font-family: cursive;
+    color: aliceblue;
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+    border-bottom: 2px solid gray;
+    font-size: 1.4rem;
+    font-family: cursive;
+    width: 350px;
+}
+.btn:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+#nextBtn{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: radial-gradient(rgb(183, 174, 174),whitesmoke);
+    color: aliceblue;
+    display: none; 
+} 
+.correct{
+    background-color: aqua;
+}
+.incorrect{
+    background-color: tomato;
+}
